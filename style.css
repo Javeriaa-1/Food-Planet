@@ -3,39 +3,8 @@ style
 *{
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16px;
     color: #ff0000;
-}
-footer{
-    background: #FF8000;
-    padding-top: 0px 100px;
-}
-.container{
-    width: 1140px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-.footer content{
-    width: 33.3%;
-}
-h3{
-    font-size: 25px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-.footer content p{
-    width: 190px;
-    margin: auto;
-    padding: 7px;
-    font-size: 10px;
-}
-.footer content li{
-    width: 190px;
-    margin: auto;
-    justify-content: left;
-    font-size: 15px;
 }
 body{
     margin: 0;
@@ -66,7 +35,7 @@ a{
 
 }
 .navbar ul li {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar ul li a{
     position: relative;
@@ -86,12 +55,34 @@ a{
     width: 100%;
     left: 0;
 }
+/*Footer*/
+footer{
+    background: #fb9126;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer content p{
+    width: 190px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 50px;
+    font-size: 10px;
+}
+/*section*/
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px 20px;
     grid-column-gap: 20px;
-    grid-row-gap: 30px;
+    grid-row-gap: 5px;
 }
 .item img{
     width: 100%;
